@@ -1,0 +1,21 @@
+body {
+    background-image: url("https://c.stocksy.com/a/BhS500/z9/1301949.jpg");
+    background-size: cover;
+}
+
+.clearfix {
+    border: 1px solid black;
+    width: 800px;
+    padding: 10px;
+    background-image: linear-gradient(red, yellow);
+    font-size: medium;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+img {
+    float: left;
+    height: 200px;
+    width: 600px;
+}
