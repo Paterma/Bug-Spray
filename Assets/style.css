@@ -25,11 +25,30 @@ body {
     background-size:cover;
 }
 
+img {
+    opacity: 0.5;
+}
+
 .inputBox {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     float: left;
+}
+
+#roadConditions {
+    border: 5px black solid;
+    height: 800px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/movement-on-snowy-road-in-morning-dmitry-savin.jpg");
+    background-size:cover;
+}
+
+footer {
+    /* border: 5px solid black; */
 }
 
 /* .clearfix {
