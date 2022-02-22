@@ -1,21 +1,69 @@
 body {
-    background-image: url("https://c.stocksy.com/a/BhS500/z9/1301949.jpg");
+    background-image: url("https://static7.depositphotos.com/1106664/679/i/950/depositphotos_6798046-stock-photo-snow-background.jpg");
     background-size: cover;
 }
 
-.clearfix {
+
+.input {
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#checkMountains {
+    border: 5px black solid;
+    height: 800px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://c.stocksy.com/a/BhS500/z9/1301949.jpg");
+    background-size:cover;
+}
+
+.inputBox {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+/* .clearfix {
     border: 1px solid black;
-    width: 800px;
+    width: 1000px;
     padding: 10px;
     background-image: linear-gradient(red, yellow);
     font-size: medium;
-    font-weight: bold;
-    display: inline-block;
+    font-weight: bold; 
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 10px;
 
 }
 
 img {
-    float: left;
-    height: 200px;
-    width: 600px;
+    object-fit: cover;
 }
+
+.container {
+
+}
+
+.col-4 {
+    height: 300px;
+    width: 500px;
+    border: black 1px solid;
+    background-color: whitesmoke;
+}
+
+.col {
+    border: 1px black solid;
+    height: 200px;
+    width: 500px;
+    background-color: whitesmoke;
+} */
