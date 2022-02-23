@@ -182,16 +182,89 @@
 
 //insert the mapping api here
 
-function CDOTapi() {
-  var requestCDOTurl =
-    "https://data.cotrip.org/api/v1/roadConditions?apiKey=P0B2XP0-QJZ4W5S-GNZKM3X-9RVZTWW&skipGeometry=true";
-  fetch(requestCDOTurl)
-    .then(function (response) {
-      return response.json();
-      console.log();
-    })
-    .then(function (data) {
-      console.log(data);
-    });
+// function CDOTapi() {
+//   var requestCDOTurl =
+//     "https://data.cotrip.org/api/v1/roadConditions?apiKey=P0B2XP0-QJZ4W5S-GNZKM3X-9RVZTWW&skipGeometry=true";
+//   fetch(requestCDOTurl)
+//     .then(function (response) {
+//       return response.json();
+//       console.log();
+//     })
+//     .then(function (data) {
+//       console.log(data);
+//     });
+// }
+// CDOTapi();
+var breckenridgeCheckboxEl = document.querySelector("#checkboxBreckenridge");
+function snowFallBreckenridge(){
+  var requestSFurl = "https://api.aerisapi.com/winter/snowdepth/breckenridge,co?client_id=bz37Z5NoJ9ov0YNNQIaHC&client_secret=y8QHN9b2pa8zVbghFjWBBlLCJ7I3LbjsMjReV8gm"
+  fetch(requestSFurl)
+  .then(function (response){
+    return response.json();
+  }) .then(function(data) {
+    console.log(data);
+    var snowDepthbr = data.response.periods[0].snowDepthIN;
+    console.log(snowDepthbr + " inches in Breckenridge");
+  })
 }
-CDOTapi();
+breckenridgeCheckboxEl.addEventListener("click", snowFallBreckenridge());
+
+var monarchCheckboxEl = document.querySelector("#checkboxMonarch");
+function snowFallMonarch(){
+  var requestSFurl = "https://api.aerisapi.com/winter/snowdepth/gunnison,co?client_id=bz37Z5NoJ9ov0YNNQIaHC&client_secret=y8QHN9b2pa8zVbghFjWBBlLCJ7I3LbjsMjReV8gm"
+  fetch(requestSFurl)
+  .then(function (response){
+    return response.json();
+  }) .then(function(data) {
+    console.log(data);
+    var snowDepthM = data.response.periods[0].snowDepthIN;
+    console.log(snowDepthM + " inches in Monarch");
+  })
+}
+monarchCheckboxEl.addEventListener("click", snowFallMonarch());
+
+var vailCheckboxEl = document.querySelector("#checkboxVail");
+function snowFallVail(){
+  var requestSFurl = "https://api.aerisapi.com/winter/snowdepth/vail,co?client_id=bz37Z5NoJ9ov0YNNQIaHC&client_secret=y8QHN9b2pa8zVbghFjWBBlLCJ7I3LbjsMjReV8gm"
+  fetch(requestSFurl)
+  .then(function (response){
+    return response.json();
+  }) .then(function(data) {
+    console.log(data);
+    var snowDepthV = data.response.periods[0].snowDepthIN;
+    console.log(snowDepthV + " inches in Vail");
+  })
+}
+vailCheckboxEl.addEventListener("click", snowFallVail());
+
+var keystoneCheckboxEl = document.querySelector("#checkboxKeystone");
+function snowFallKeystone(){
+  var requestSFurl = "https://api.aerisapi.com/winter/snowdepth/keystone,co?client_id=bz37Z5NoJ9ov0YNNQIaHC&client_secret=y8QHN9b2pa8zVbghFjWBBlLCJ7I3LbjsMjReV8gm"
+  fetch(requestSFurl)
+  .then(function (response){
+    return response.json();
+  }) .then(function(data) {
+    console.log(data);
+    var snowDepthK = data.response.periods[0].snowDepthIN;
+    console.log(snowDepthK + " inches in Keystone");
+  })
+}
+keystoneCheckboxEl.addEventListener("click", snowFallKeystone());
+
+var lovelandCheckboxEl = document.querySelector("#checkboxLoveland");
+function snowFallLoveland(){
+  var requestSFurl = "https://api.aerisapi.com/winter/snowdepth/loveland,co?client_id=bz37Z5NoJ9ov0YNNQIaHC&client_secret=y8QHN9b2pa8zVbghFjWBBlLCJ7I3LbjsMjReV8gm"
+  fetch(requestSFurl)
+  .then(function (response){
+    return response.json();
+  }) .then(function(data) {
+    console.log(data);
+    var snowDepthL = data.response.periods[0].snowDepthIN;
+    console.log(snowDepthL + " inches in Loveland");
+  })
+}
+lovelandCheckboxEl.addEventListener("click", snowFallLoveland());
+
+//https://api.aerisapi.com/conditions/breckenridge, co?format=json&plimit=1&filter=1min&client_id=[CLIENT_ID]&client_secret=[CLIENT_SECRET]
+
+//apikey for google-AIzaSyCjQWepgxl2VNsTlqHs-VfxsYseo41dEXM
