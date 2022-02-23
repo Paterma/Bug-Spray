@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://static7.depositphotos.com/1106664/679/i/950/depositphotos_6798046-stock-photo-snow-background.jpg");
+  background-image: url("https://www.publicdomainpictures.net/pictures/250000/nahled/snow-background-1518252097LRO.jpg");
   background-size: cover;
 }
 
@@ -54,26 +54,69 @@ img {
   text-decoration: underline;
   padding: 5px;
   width: 100%;
-  mar
 }
 
-button{
-display: inline-block;
-background-color: rgb(214, 254, 255);
-  color: black;
-  border: 2px solid #0b440c;
-  border-radius: 25px;
+button {
+background: url("https://ak.picdn.net/shutterstock/videos/5911769/thumb/1.jpg");
+color: rgb(0, 0, 100);
+border: 2px solid #03009c;
+border-radius: 15px 50px 30px;
+height: 150px;
+width: 250px;
+margin: 4px;
+justify-content: center !important;
+align-items: center !important;
+font-size: x-large;
+font-weight: bolder;
+justify-content: space-around;
 }
 
 button:hover {
-  background-color: #7782b4; /* Green */
+  background-color: #7782b4;
   color: rgb(0, 0, 0);
 }
 
-footer {
-  /* border: 5px solid black; */
+.weatherBox {
+  background-color: white;
+  border: 1px black solid;
+  font-size: larger;
+  font-weight: bolder;
+
 }
 
+#keystoneWeather {
+  background-color: rgb(167, 223, 255);
+  font-weight: bold;
+}
+#lovelandWeather {
+  background-color: rgb(147, 215, 255);
+  font-weight: bold;
+}
+
+#vailWeather {
+  background-color: rgb(183, 226, 252);
+  font-weight: bold;
+}
+
+#breckenridgeWeather {
+  background-color: rgb(200, 235, 255);
+  font-weight: bold;
+}
+#monarchWeather {
+  background-color:rgb(219, 242, 255);
+  font-weight: bold;
+}
+
+.list-unstyled {
+  display: inline-flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+}
 /* .clearfix {
     border: 1px solid black;
     width: 1000px;
