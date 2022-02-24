@@ -15,7 +15,7 @@ body {
 
 #checkMountains {
   border: 5px black solid;
-  height: 800px;
+  height: 1000px;
   width: 500px;
   display: block;
   margin-left: auto;
@@ -37,7 +37,7 @@ img {
 
 #roadConditions {
   border: 5px black solid;
-  height: 800px;
+  height: 1000px;
   width: 500px;
   display: block;
   margin-left: auto;
@@ -52,12 +52,14 @@ img {
   text-align: center;
   background-color: rgb(214, 254, 255);
   text-decoration: underline;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 button {
-background: url("https://ak.picdn.net/shutterstock/videos/5911769/thumb/1.jpg");
+/* background: url("https://ak.picdn.net/shutterstock/videos/5911769/thumb/1.jpg"); */
 color: rgb(0, 0, 100);
 border: 2px solid #03009c;
 border-radius: 15px 50px 30px;
@@ -69,6 +71,32 @@ align-items: center !important;
 font-size: x-large;
 font-weight: bolder;
 justify-content: space-around;
+padding: 10px 10px 10px 10px !important;
+}
+
+#checkboxMonarch{
+background: url("https://i0.heartyhosting.com/www.powder.com/wp-content/uploads/2017/01/POWP-161000-LATS-01.jpg?fit=1920%2C1278&ssl=1&resize=1920%2C1278");
+background-size: 275px;
+}
+
+#checkboxBreckenridge {
+background: url("https://s20084.pcdn.co/wp-content/uploads/2017/11/vr4minehlr34ut31nm41.jpg");
+background-size: 300px;
+}
+
+#checkboxVail {
+background: url("https://i.pinimg.com/originals/a7/4b/d0/a74bd0d1a50f11d6d112d3e0255e2eb2.jpg");
+background-size: 250px;
+}
+
+#checkboxKeystone {
+background: url("https://warrenstation.com/wp-content/uploads/Wedding-Blog-Engagement-Locations-December-2-1024x1024.jpg");
+background-size: 250px;
+}
+
+#checkboxLoveland {
+background: url("https://i0.wp.com/braveskimom.com/wp-content/uploads/2011/03/Scenic-12SMALL.jpg?ssl=1");
+background-size: 375px;
 }
 
 button:hover {
@@ -117,38 +145,31 @@ li {
   padding: 5px;
   margin: 5px;
 }
-/* .clearfix {
-    border: 1px solid black;
-    width: 1000px;
-    padding: 10px;
-    background-image: linear-gradient(red, yellow);
-    font-size: medium;
-    font-weight: bold; 
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    padding: 10px;
+
+#roadConditionsBox {
+  height: 500px;
+  width: 100%;
+  border: 2px black solid;
+  background: url("https://wallpaperaccess.com/full/4945969.jpg");
+  background-size: cover;
+  padding: 5px 5px 5px 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-size: 2500px;
 
 }
 
-img {
-    object-fit: cover;
+h2 {
+  font-size: xx-large;
+  text-decoration: underline;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(214, 254, 255);
+  padding: 10px;
 }
-
-.container {
-
+footer {
+  text-align: center;
+  justify-content: center;
 }
-
-.col-4 {
-    height: 300px;
-    width: 500px;
-    border: black 1px solid;
-    background-color: whitesmoke;
-}
-
-.col {
-    border: 1px black solid;
-    height: 200px;
-    width: 500px;
-    background-color: whitesmoke;
-} */
