@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="Assets/style.css">
     <title>Mountain Madness</title>
 </head>
+<body>
+  
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Mountains</a>
@@ -29,66 +31,68 @@
       </div>
     </div>
   </nav>
+
   <div class="row">
     <div id="checkMountains" class="col-4">
       
-<!-- <label class="input" for="Monarch"> Monarch</label><br> -->
-<button id="checkboxMonarch" class="center">Monarch</button>
+    <!-- <label class="input" for="Monarch"> Monarch</label><br> -->
+    <button id="checkboxMonarch" class="center">Monarch</button>
 
-<!-- <label class="input" for="Breckenridge"> Breckenridge</label><br> -->
-<button id="checkboxBreckenridge">Breckenridge</button>
-
-
-<!-- <label class="input" for="Vail"> Vail</label><br> -->
-<button id="checkboxVail">Vail</button>
+    <!-- <label class="input" for="Breckenridge"> Breckenridge</label><br> -->
+    <button id="checkboxBreckenridge">Breckenridge</button>
 
 
-<!-- <label class="input" for="Keystone"> Keystone</label><br> -->
-<button id="checkboxKeystone">Keystone</button>
+    <!-- <label class="input" for="Vail"> Vail</label><br> -->
+    <button id="checkboxVail">Vail</button>
 
+    <!-- <label class="input" for="Keystone"> Keystone</label><br> -->
+    <button id="checkboxKeystone">Keystone</button>
 
-<!-- <label class="input" for="Loveland"> Loveland</label><br> -->
-<button id="checkboxLoveland">Loveland</button>
- </div>
+    <!-- <label class="input" for="Loveland"> Loveland</label><br> -->
+    <button id="checkboxLoveland">Loveland</button>
+  </div>
 
 
     <div id="roadConditions" class="col-4">
-    <h1 id="roadh1">Road Conditions</h1> 
-    <div class="monarchWeatherBox " id="monarchWeather">  
-      <div id="monarchTemp"></div>
-      <div id="monarchDescription"></div>
-      <div id="monarchWind"></div>
+      <h1 id="roadh1">Weather Conditions</h1> 
+
+      <div class="monarchWeatherBox" id="monarchWeather">  
+        <div class="h3" id="monarchHeader"></div>
+        <div id="monarchTemp"></div>
+        <div id="monarchDescription"></div>
+        <div id="monarchWind"></div>
+      </div>
+
+    
+    <div class="breckenridgeWeatherBox" id="breckenridgeWeather">  
+      <div class="h3" id="breckenridgeHeader"></div>
+      <div id="breckenridgeTemp"></div>
+      <div id="breckenridgeDescription"></div>
+      <div id="breckenridgeWind"></div>
     </div>
 
-    <div class="weatherBox" id="breckenridgeWeather"></div>
-<div class="breckenridgeWeatherBox " id="breckenridgeWeather">  
-  <div id="breckenridgeTemp"></div>
-  <div id="breckenridgeDescription"></div>
-  <div id="breckenridgeWind"></div>
-</div>
 
-<div class="weatherBox" id="vailWeather"></div>
-<div class="vailWeatherBox " id="vailWeather">  
-  <div id="vailTemp"></div>
-  <div id="vailDescription"></div>
-  <div id="vailWind"></div>
-</div>
-
-<div class="weatherBox" id="keystoneWeather"></div>
-<div class="keystoneWeatherBox " id="keystoneWeather">  
-  <div id="keystoneTemp"></div>
-  <div id="keystoneDescription"></div>
-  <div id="keystoneWind"></div>
-</div>
-
-<div class="weatherBox" id="lovelandWeather"></div>
-<div class="lovelandWeatherBox " id="lovelandWeather">
-  <div id="lovelandTemp"></div>
-  <div id="lovelandDescription"></div>
-  <div id="lovelandWind"></div>
-</div>
-
+    <div class="vailWeatherBox" id="vailWeather">  
+      <div class="h3" id="vailHeader"></div>
+      <div id="vailTemp"></div>
+      <div id="vailDescription"></div>
+      <div id="vailWind"></div>
     </div>
+
+    <div class="keystoneWeatherBox" id="keystoneWeather">  
+      <div class="h3" id="keystoneHeader"></div>
+      <div id="keystoneTemp"></div>
+      <div id="keystoneDescription"></div>
+      <div id="keystoneWind"></div>
+    </div>
+
+    <div class="lovelandWeatherBox" id="lovelandWeather">
+      <div class="h3" id="lovelandHeader"></div>
+      <div id="lovelandTemp"></div>
+      <div id="lovelandDescription"></div>
+      <div id="lovelandWind"></div>
+    </div>
+
   </div>
 
 <footer class="page-footer font-small blue pt-4">
@@ -157,66 +161,6 @@
   </div>
   <!-- Copyright -->
 
-<!-- Footer -->
-  <!-- <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-4" class="image">
-        <img src="https://www.coloradoski.com/sites/default/files/2017-10/Monarch_cs2015_1170x550.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
-      </div>
-      <div class="col-4">
-        One of two columns
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-4">
-        One of two columns
-      </div>
-      <div class="col-4">
-        One of two columns
-      </div>
-    </div>
-    <div class="row justify-content-end">
-      <div class="col-4">
-        One of two columns
-      </div>
-      <div class="col-4">
-        One of two columns
-      </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-4">
-          One of two columns
-        </div>
-        <div class="col-4">
-          One of two columns
-        </div>
-      </div>
-      <div class="row justify-content-start">
-        <div class="col-4">
-          One of two columns
-        </div>
-        <div class="col-4">
-          One of two columns
-        </div>
-      </div>
-      <div class="row align-items-end">
-        <div class="col">
-          One of three columns
-        </div>
-        <div class="col">
-          One of three columns
-        </div>
-        <div class="col">
-          One of three columns
-        </div>
-        <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-      </div> -->
-=======
 </footer>
   <script src="Assets/script.js"></script>
 </body>
