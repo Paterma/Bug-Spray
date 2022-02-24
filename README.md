@@ -9,7 +9,7 @@ On load the user is presented with a nav-bar and two boxes. The first one contai
 
 # Screenshot
 
-# URL
+# Url:
 
 # Collaborators
 Trayce Wilhelm - github Link
