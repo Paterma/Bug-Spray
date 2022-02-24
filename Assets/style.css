@@ -74,6 +74,8 @@ justify-content: center !important;
 align-items: center !important;
 font-size: xx-large;
 font-weight: bolder;
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4500e6, 0 0 40px #6203a1, 0 0 50px #007fe6, 0 0 60px #3e37a7, 0 0 70px #6b00e6 !important;
+animation: glow 1s !important;
 justify-content: space-around !important;
 padding: 30px 30px 30px 30px !important;
 display: flex !important;
