@@ -17,11 +17,14 @@ body {
   border: 5px black solid;
   height: 1000px;
   width: 500px;
-  display: block;
+  /* display: block !important; */
   margin-left: auto;
   margin-right: auto;
   background-image: url("https://c.stocksy.com/a/BhS500/z9/1301949.jpg");
   background-size: cover;
+  justify-content: space-around !important;
+  align-items: center !important;
+  align-items: center !important;
 }
 
 img {
@@ -35,7 +38,7 @@ img {
   float: left;
 }
 
-#roadConditions {
+#weatherConditions {
   border: 5px black solid;
   height: 1000px;
   width: 500px;
@@ -65,38 +68,46 @@ border: 2px solid #03009c;
 border-radius: 15px 50px 30px;
 height: 150px;
 width: 250px;
-margin: 4px;
+margin: 40px;
+margin-left: 3px;
 justify-content: center !important;
 align-items: center !important;
-font-size: x-large;
+font-size: xx-large;
 font-weight: bolder;
-justify-content: space-around;
-padding: 10px 10px 10px 10px !important;
+justify-content: space-around !important;
+padding: 30px 30px 30px 30px !important;
+display: flex !important;
+width: 100% !important;
 }
 
 #checkboxMonarch{
-background: url("https://i0.heartyhosting.com/www.powder.com/wp-content/uploads/2017/01/POWP-161000-LATS-01.jpg?fit=1920%2C1278&ssl=1&resize=1920%2C1278");
-background-size: 275px;
+background: url("https://skimonarch.com/wp-content/uploads/2019/11/20191129_055441-1024x424.jpg");
+background-size: 350px;
+background-size: cover;
 }
 
 #checkboxBreckenridge {
 background: url("https://s20084.pcdn.co/wp-content/uploads/2017/11/vr4minehlr34ut31nm41.jpg");
 background-size: 300px;
+background-size: cover;
 }
 
 #checkboxVail {
-background: url("https://i.pinimg.com/originals/a7/4b/d0/a74bd0d1a50f11d6d112d3e0255e2eb2.jpg");
+background: url("http://s4301.pcdn.co/wp-content/uploads/2018/01/IM_3673-1024x683.jpg");
 background-size: 250px;
+background-size: cover;
 }
 
 #checkboxKeystone {
 background: url("https://warrenstation.com/wp-content/uploads/Wedding-Blog-Engagement-Locations-December-2-1024x1024.jpg");
 background-size: 250px;
+background-size: cover;
 }
 
 #checkboxLoveland {
 background: url("https://i0.wp.com/braveskimom.com/wp-content/uploads/2011/03/Scenic-12SMALL.jpg?ssl=1");
 background-size: 375px;
+background-size: cover;
 }
 
 button:hover {
@@ -172,4 +183,5 @@ h2 {
 footer {
   text-align: center;
   justify-content: center;
+  width: 1500px !important;
 }
