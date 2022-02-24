@@ -6,6 +6,7 @@ var tempMonarchEl = document.querySelector("#monarchTemp");
 var descMonarchEl = document.querySelector("#monarchDescription");
 var windMonarchEl = document.querySelector("#monarchWind");
 var monarchHeader = document.querySelector("#monarchHeader");
+var monarchSnowDepth = document.querySelector("#monarchSnowDepth");
 
 //list of variables that connect to Loveland card
 var lovelandCheckboxEl = document.querySelector("#checkboxLoveland");
@@ -13,6 +14,7 @@ var tempLovelandEl = document.querySelector("#lovelandTemp");
 var descLovelandEl = document.querySelector("#lovelandDescription");
 var windLovelandEl = document.querySelector("#lovelandWind");
 var lovelandHeader = document.querySelector("#lovelandHeader");
+var lovelandSnowDepth = document.querySelector("#lovelandSnowDepth");
 
 //list of variables that connect to Keystone card
 var keystoneCheckboxEl = document.querySelector("#checkboxKeystone");
@@ -20,6 +22,7 @@ var tempKeystoneEl = document.querySelector("#keystoneTemp");
 var descKeystoneEl = document.querySelector("#keystoneDescription");
 var windKeystoneEl = document.querySelector("#keystoneWind");
 var keystoneHeader = document.querySelector("#keystoneHeader");
+var lovelandSnowDepth = document.querySelector("#lovelandSnowDepth");
 
 //list of variables that connect to Breckenridge card
 var breckenridgeCheckboxEl = document.querySelector("#checkboxBreckenridge");
@@ -27,6 +30,7 @@ var tempBreckenridgeEl = document.querySelector("#breckenridgeTemp");
 var descBreckenridgeEl = document.querySelector("#breckenridgeDescription");
 var windBreckenridgeEl = document.querySelector("#breckenridgeWind");
 var breckenridgeHeader = document.querySelector("#breckenridgeHeader");
+var breckenridgeSnowDepth = document.querySelector("#breckenridgeSnowDepth");
 
 //list of variables that connect to Vail card
 var vailCheckboxEl = document.querySelector("#checkboxVail");
@@ -34,6 +38,7 @@ var tempVailEl = document.querySelector("#vailTemp");
 var descVailEl = document.querySelector("#vailDescription");
 var windVailEl = document.querySelector("#vailWind");
 var vailHeader = document.querySelector("#vailHeader");
+var vailSnowDepth = document.querySelector("#vailSnowDepth");
 
 //get the weather for Loveland
 function lovelandWeather() {
@@ -79,6 +84,7 @@ function snowFallLoveland() {
       console.log(data);
       var snowDepthL = data.response.periods[0].snowDepthIN;
       console.log(snowDepthL + " inches in Loveland");
+      lovelandSnowDepth.textContent = "Snow: " + snowDepthL + " inches ";
     });
 }
 
@@ -131,6 +137,7 @@ function snowFallMonarch() {
       console.log(data);
       var snowDepthM = data.response.periods[0].snowDepthIN;
       console.log(snowDepthM + " inches in Monarch");
+      monarchSnowDepth.textContent = "Snow: " + snowDepthM + " inches";
     });
 }
 // when this button is clicked, pull the weather and snowfall apis for Monarch
@@ -182,6 +189,7 @@ function snowFallKeystone() {
       console.log(data);
       var snowDepthK = data.response.periods[0].snowDepthIN;
       console.log(snowDepthK + " inches in Keystone");
+      keystoneSnowDepth.textContent = snowDepthK + " inches";
     });
 }
 // when this button is clicked, pull the weather and snowfall apis
@@ -234,6 +242,7 @@ function snowFallBreckenridge() {
       console.log(data);
       var snowDepthbr = data.response.periods[0].snowDepthIN;
       console.log(snowDepthbr + " inches in Breckenridge");
+      breckenridgeSnowDepth.textContent = snowDepthbr + " inches";
     });
 }
 
@@ -287,6 +296,7 @@ function snowFallVail() {
       console.log(data);
       var snowDepthV = data.response.periods[0].snowDepthIN;
       console.log(snowDepthV + " inches in Vail");
+      vailSnowDepth.textContent = snowDepthV + " inches";
     });
 }
 // if this button is clicked, pull the weather and snowfall for Vail
