@@ -12,7 +12,7 @@ On load the user is presented with a nav-bar and two boxes. The first one contai
 # Url:
 
 # Collaborators
-Trayce Wilhelm - github Link
-Maria Paterno - github link
-Sam Posig - github link
-Brenden Holt - github link
+-Trayce Wilhelm: github Link
+-Maria Paterno: github link
+-Sam Posig: github link
+-Brenden Holt: github link
