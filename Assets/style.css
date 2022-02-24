@@ -1,41 +1,27 @@
+/* Setting the background image for the page */
 body {
   background-image: url("https://www.publicdomainpictures.net/pictures/250000/nahled/snow-background-1518252097LRO.jpg");
   background-size: cover;
 }
 
-.input {
-  text-align: center;
-  text-decoration: underline;
-  font-size: xx-large;
-  color: black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/* This containers holds the mountain buttons on the left side of the page*/
 #checkMountains {
   border: 5px black solid;
   height: 1000px;
   width: 500px;
-  display: block;
+  /* display: block !important; */
   margin-left: auto;
   margin-right: auto;
-  background-image: url("https://c.stocksy.com/a/BhS500/z9/1301949.jpg");
+  background-image: url("https://www.powderhounds.com/site/DefaultSite/filesystem/images/India/Gulmarg/Overview/11.jpg");
+  background-size: 1500px;
   background-size: cover;
+  justify-content: space-around !important;
+  align-items: center !important;
+  align-items: center !important;
 }
 
-img {
-  opacity: 0.5;
-}
-
-.inputBox {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-}
-
-#roadConditions {
+/*This container on the right holds the populated weather info once the mountain buttons are clicked */
+#weatherConditions {
   border: 5px black solid;
   height: 1000px;
   width: 500px;
@@ -46,9 +32,10 @@ img {
   background-size: cover;
 }
 
+/* This is the header of the weatherConditions box */
 #roadh1 {
   font: bolder;
-  font-size: xx-large;
+  font-size: x-large;
   text-align: center;
   background-color: rgb(214, 254, 255);
   text-decoration: underline;
@@ -58,94 +45,111 @@ img {
   margin-bottom: 10px;
 }
 
+/* This is styling for the buttons in the checkMountains container */
 button {
-/* background: url("https://ak.picdn.net/shutterstock/videos/5911769/thumb/1.jpg"); */
-color: rgb(0, 0, 100);
+color: rgb(1, 1, 143);
 border: 2px solid #03009c;
 border-radius: 15px 50px 30px;
 height: 150px;
 width: 250px;
-margin: 4px;
+margin: 40px;
+margin-left: 3px;
 justify-content: center !important;
 align-items: center !important;
 font-size: x-large;
+white-space: normal !important;
 font-weight: bolder;
-justify-content: space-around;
-padding: 10px 10px 10px 10px !important;
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #4500e6, 0 0 30px #6203a1, 0 0 30px #007fe6, 0 0 30px #3e37a7, 0 0 30px #6b00e6 !important;
+animation: glow 1s !important;
+justify-content: space-around !important;
+padding: 30px 30px 30px 30px !important;
+display: flex !important;
+width: 100% !important;
 }
 
+/* This is the specific background and styling for the button for Monarch */
 #checkboxMonarch{
-background: url("https://i0.heartyhosting.com/www.powder.com/wp-content/uploads/2017/01/POWP-161000-LATS-01.jpg?fit=1920%2C1278&ssl=1&resize=1920%2C1278");
-background-size: 275px;
+background: url("https://skimonarch.com/wp-content/uploads/2019/11/20191129_055441-1024x424.jpg");
+background-size: 350px;
+background-size: cover;
 }
 
+
+/* This is the specific background and styling for the button for Breckenridge */
 #checkboxBreckenridge {
 background: url("https://s20084.pcdn.co/wp-content/uploads/2017/11/vr4minehlr34ut31nm41.jpg");
 background-size: 300px;
+background-size: cover;
 }
 
+
+/* This is the specific background and styling for the button for Vail */
 #checkboxVail {
-background: url("https://i.pinimg.com/originals/a7/4b/d0/a74bd0d1a50f11d6d112d3e0255e2eb2.jpg");
+background: url("http://s4301.pcdn.co/wp-content/uploads/2018/01/IM_3673-1024x683.jpg");
 background-size: 250px;
+background-size: cover;
 }
 
+
+/* This is the specific background and styling for the button for Keystone */
 #checkboxKeystone {
 background: url("https://warrenstation.com/wp-content/uploads/Wedding-Blog-Engagement-Locations-December-2-1024x1024.jpg");
 background-size: 250px;
+background-size: cover;
 }
 
+
+/* This is the specific background and styling for the button for Loveland */
 #checkboxLoveland {
 background: url("https://i0.wp.com/braveskimom.com/wp-content/uploads/2011/03/Scenic-12SMALL.jpg?ssl=1");
 background-size: 375px;
+background-size: cover;
 }
 
-button:hover {
-  background-color: #7782b4;
-  color: rgb(0, 0, 0);
-}
-
-.weatherBox {
-  background-color: white;
-  border: 1px black solid;
-  font-size: larger;
-  font-weight: bolder;
-
-}
-
+/* This is the styling for the Keystone weather that populates in the right container */
 #keystoneWeather {
   background-color: rgb(167, 223, 255);
   font-weight: bold;
 }
+
+/* This is the styling for the Loveland weather that populates in the right container */
 #lovelandWeather {
   background-color: rgb(147, 215, 255);
   font-weight: bold;
 }
 
+/* This is the styling for the Vail weather that populates in the right container */
 #vailWeather {
   background-color: rgb(183, 226, 252);
   font-weight: bold;
 }
 
+/* This is the styling for the Breckenridge weather that populates in the right container */
 #breckenridgeWeather {
   background-color: rgb(200, 235, 255);
   font-weight: bold;
 }
+
+/* This is the styling for the Monarch weather that populates in the right container */
 #monarchWeather {
   background-color:rgb(219, 242, 255);
   font-weight: bold;
 }
 
+/* This is styling for the listed links in the footer */
 .list-unstyled {
   display: inline-flex;
   padding: 5px;
   margin: 5px;
 }
 
+/* This is styling for the listed links in the navbar */
 li {
   padding: 5px;
   margin: 5px;
 }
 
+/* This is the box on the bottom of the page that contains the road conditions */
 #roadConditionsBox {
   height: 500px;
   width: 100%;
@@ -161,6 +165,7 @@ li {
 
 }
 
+/* This is styling for the header in the roadConditionsBox */
 h2 {
   font-size: xx-large;
   text-decoration: underline;
@@ -169,7 +174,10 @@ h2 {
   background-color: rgb(214, 254, 255);
   padding: 10px;
 }
+
+/* This is styling for the footer */
 footer {
   text-align: center;
   justify-content: center;
+  width: 1500px !important;
 }

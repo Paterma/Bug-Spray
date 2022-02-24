@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Linking our style sheet -->
     <link rel="stylesheet" href="Assets/style.css">
     <title>Mountain Madness</title>
 </head>
 <body>
-  
+  <!-- Creating the navbar with functional links-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Mountains</a>
-      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -32,28 +31,23 @@
     </div>
   </nav>
 
+  <!-- Creating  a div to hold out buttons that will be on the left hand side -->
   <div class="row">
     <div id="checkMountains" class="col-4">
       
-    <!-- <label class="input" for="Monarch"> Monarch</label><br> -->
     <button id="checkboxMonarch" class="center">Monarch</button>
 
-    <!-- <label class="input" for="Breckenridge"> Breckenridge</label><br> -->
-    <button id="checkboxBreckenridge">Breckenridge</button>
+    <button id="checkboxBreckenridge" class="center">Breckenridge</button>
 
+    <button id="checkboxVail" class="center">Vail</button>
 
-    <!-- <label class="input" for="Vail"> Vail</label><br> -->
-    <button id="checkboxVail">Vail</button>
+    <button id="checkboxKeystone" class="center">Keystone</button>
 
-    <!-- <label class="input" for="Keystone"> Keystone</label><br> -->
-    <button id="checkboxKeystone">Keystone</button>
-
-    <!-- <label class="input" for="Loveland"> Loveland</label><br> -->
-    <button id="checkboxLoveland">Loveland</button>
+    <button id="checkboxLoveland" class="center"> Loveland</button>
   </div>
 
-
-    <div id="roadConditions" class="col-4">
+<!-- Creating the container for the right side of the page to hold the weather conditions -->
+    <div id="weatherConditions" class="col-4">
       <h1 id="roadh1">Weather Conditions</h1> 
 
       <div class="monarchWeatherBox" id="monarchWeather">  
@@ -100,45 +94,34 @@
 
   </div>
 
+  <!-- Creating the container on the bottom of the page that holds the road conditions -->
   <div id="roadConditionsBox" class="row">
     <div class="col">
     <h2>Road Conditions</h2>
   </div>
   </div>
 
+  <!-- Creating the footer with functional links -->
 <footer class="page-footer font-small blue pt-4">
-
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">
-
     <!-- Grid row -->
     <div class="row">
-
       <!-- Grid column -->
       <div class="col">
-
         <!-- Content -->
-        <h5 class="text-uppercase">Check us out for the latest Colorado mountain info!</h5>
-
+        <h5 class="text-uppercase">Get the latest Colorado mountain info!</h5>
       </div>
       <!-- Grid column -->
-
       <hr class="clearfix w-100 d-md-none pb-3">
-
       <!-- Grid column -->
       <div class="col">
-
-        <!-- Links -->
-
       </div>
       <!-- Grid column -->
-
-      <!-- Grid column -->
       <div class="col">
-
         <!-- Links -->
         <h5 class="text-uppercase">Links</h5>
-
+        <!-- The links for the live snow-cam footage -->
         <ul id="snowCams" class="list-unstyled">
           <li>
             <a href="https://skimonarch.com/conditions/"target="_blank">Monarch</a>
@@ -156,25 +139,21 @@
             <a href="https://skiloveland.com/webcams/"target="_blank">Loveland</a>
           </li>
         </ul>
-
       </div>
       <iframe src="https://embed.waze.com/iframe?zoom=10&lat=39.6303&lon=-106.0434&pin=1&desc=1"
             width="1000" height="520"></iframe>
       <!-- Grid column -->
-
     </div>
     <!-- Grid row -->
-
   </div>
-  <!-- Footer Links -->
-
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
     <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
   </div>
   <!-- Copyright -->
-
 </footer>
+
+<!-- Linking our JS -->
   <script src="Assets/script.js"></script>
 </body>
 </html>
