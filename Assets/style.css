@@ -2,7 +2,6 @@ body {
   background-image: url("https://www.publicdomainpictures.net/pictures/250000/nahled/snow-background-1518252097LRO.jpg");
   background-size: cover;
 }
-
 .input {
   text-align: center;
   text-decoration: underline;
@@ -20,7 +19,8 @@ body {
   /* display: block !important; */
   margin-left: auto;
   margin-right: auto;
-  background-image: url("https://c.stocksy.com/a/BhS500/z9/1301949.jpg");
+  background-image: url("https://www.powderhounds.com/site/DefaultSite/filesystem/images/India/Gulmarg/Overview/11.jpg");
+  background-size: 1500px;
   background-size: cover;
   justify-content: space-around !important;
   align-items: center !important;
@@ -51,7 +51,7 @@ img {
 
 #roadh1 {
   font: bolder;
-  font-size: xx-large;
+  font-size: x-large;
   text-align: center;
   background-color: rgb(214, 254, 255);
   text-decoration: underline;
@@ -63,7 +63,7 @@ img {
 
 button {
 /* background: url("https://ak.picdn.net/shutterstock/videos/5911769/thumb/1.jpg"); */
-color: rgb(0, 0, 100);
+color: rgb(1, 1, 143);
 border: 2px solid #03009c;
 border-radius: 15px 50px 30px;
 height: 150px;
@@ -72,9 +72,11 @@ margin: 40px;
 margin-left: 3px;
 justify-content: center !important;
 align-items: center !important;
-font-size: xx-large;
+font-size: x-large;
+white-space: normal !important;
 font-weight: bolder;
-text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4500e6, 0 0 40px #6203a1, 0 0 50px #007fe6, 0 0 60px #3e37a7, 0 0 70px #6b00e6 !important;
+/* text-align: ; */
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #4500e6, 0 0 30px #6203a1, 0 0 30px #007fe6, 0 0 30px #3e37a7, 0 0 30px #6b00e6 !important;
 animation: glow 1s !important;
 justify-content: space-around !important;
 padding: 30px 30px 30px 30px !important;
