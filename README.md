@@ -39,4 +39,4 @@ https://paterma.github.io/Bug-Spray/
 * Trayce Wilhelm: github Link
 * Maria Paterno: github link -https://github.com/Paterma/Bug-Spray
 * Sam Posig: github link
-* Brenden Holt: github link
+* Brenden Holt: github link 
