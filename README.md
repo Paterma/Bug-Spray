@@ -29,14 +29,16 @@ On load the user is presented with a responsize nav-bar and three main boxes. Th
 
 # Screenshot of Mountain Madness
 
-![Screenshot of Mountain Madness Webpage]()
+![Screenshot of Mountain Madness Webpage](/Assets/image.png)
 
-# Url of Deployed webpage
+# Url of Deployed webpage and Github page
 
 https://paterma.github.io/Bug-Spray/
 
+https://github.com/Paterma/Bug-Spray
+
 # Collaborators
-* Trayce Wilhelm: github Link
-* Maria Paterno: github link -https://github.com/Paterma/Bug-Spray
-* Sam Posig: github link
-* Brenden Holt: github link 
+* Trayce Wilhelm
+* Maria Paterno
+* Sam Posig
+* Brenden Holt
